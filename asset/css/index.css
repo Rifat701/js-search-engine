@@ -33,3 +33,12 @@ h1{
 th{
     padding: 10px 0;
 }
+
+@media screen and (max-width:480px){
+    .input input{
+        width: 350px;
+    }
+    .header th{
+        padding: 30px 17px;
+    }
+}
